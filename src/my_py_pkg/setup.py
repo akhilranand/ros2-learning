@@ -24,7 +24,8 @@ setup(
     },
     entry_points={
         'console_scripts': [
-            "py_node = my_py_pkg.my_first_node:main"
+            "py_node = my_py_pkg.my_first_node:main",
+            "RobotNewsStation = my_py_pkg.robot_news_station:main"
         ],
     },
 )
